@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App meteo</title>
+    <style>
+      body {
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      /* .container{
+
+} */
+      form {
+        background-color: white;
+        width: 40%;
+        /* height: 50%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px;
+        padding-bottom: 50px;
+      }
+      input {
+        padding:20px 30px;
+        width: 82%;
+        font-size: 30px;
+      }
+
+      #items {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 70%;
+      }
+      button {
+        padding: 15px;
+        background-color: rgba(253, 253, 0, 0.702);
+        width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>Application Météo</h1>
+      <div id="items">
+        <div >
+          <input type="text" id="ville" placeholder="Saisir une ville"/>
+        </div>
+
+        <div>
+          <button type="submit" id="btn">Rechercher</button>
+        </div>
+      </div>
+       <div id="resultat"></div>
+    </form>
+   
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
